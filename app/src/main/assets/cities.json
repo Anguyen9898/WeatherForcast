@@ -1,0 +1,452 @@
+[
+  {
+    "apiId": "Bac Giang",
+    "detail": "Bắc Giang",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Bac Ninh",
+    "detail": "Bắc Ninh",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Bac Kan",
+    "detail": "Bắc Kan",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Cao Bang",
+    "detail": "Cao Bằng",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Cam Pha Mines",
+    "detail": "Cẩm Phả Mines",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Dien Bien Phu",
+    "detail": "Điện Biên Phủ",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Hoa Binh",
+    "detail": "Hòa Bình",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Hai Duong",
+    "detail": "Hải Dương",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Ha Dong",
+    "detail": "Hà Đông",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Ha Giang",
+    "detail": "Hà Giang",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Ha Noi",
+    "detail": "Hà Nội",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Ha Long",
+    "detail": "Hạ Long",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Haiphong",
+    "detail": "Hải Phòng",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Hung Yen",
+    "detail": "Hưng Yên",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Lao Cai",
+    "detail": "Lào Cai",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Lang Son",
+    "detail": "Lạng Sơn",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Ninh Binh",
+    "detail": "Ninh Bình",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Nam Dinh",
+    "detail": "Nam Định",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Phu Ly",
+    "detail": "Phú Lỳ",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Son La",
+    "detail": "Sơn La",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Sa Pa",
+    "detail": "Sapa",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Son Tay",
+    "detail": "Sơn Tây",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Thai Binh",
+    "detail": "Thái Bình",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Thai Nguyen",
+    "detail": "Thái Nguyên",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Tuyen Quang",
+    "detail": "Tuyên Quang",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Uong Bi",
+    "detail": "Uông Bí",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Viet Tri",
+    "detail": "Việt Trì",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Vinh Yen",
+    "detail": "Vĩnh Yên",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Yen Bai",
+    "detail": "Yên Bái",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Buon Ma Thuot",
+    "detail": "Buôn Ma Thuột",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Dong Hoi",
+    "detail": "Đồng Hới",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Dong Ha",
+    "detail": "Đông Hà",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Da Lat",
+    "detail": "Đà Lạt",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Hue",
+    "detail": "Huế",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Hoi An",
+    "detail": "Hội An",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Ha Tinh",
+    "detail": "Hà Tĩnh",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Kon Tum",
+    "detail": "Kon Tum",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Nha Trang",
+    "detail": "Nha Trang",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Pleiku",
+    "detail": "Pleiku",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Phan Rang-Thap Cham",
+    "detail": "Phan Rang-Tháp Chàm",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Phan Thiet",
+    "detail": "Phan Thiết",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Quy Nhon",
+    "detail": "Quy Nhơn",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Quang Ngai",
+    "detail": "Quảng Ngãi",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Song Cau",
+    "detail": "Sông Cầu",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Tuy Hoa",
+    "detail": "Tuy Hòa",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Thanh Hoa",
+    "detail": "Thanh Hóa",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Tam Ky",
+    "detail": "Tam Kỳ",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Turan",
+    "detail": "Đà Nẵng",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Vinh",
+    "detail": "Vinh",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Bien Hoa",
+    "detail": "Biên Hòa",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Thanh pho Bac Lieu",
+    "detail": "Bạc Liêu",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Ben Tre",
+    "detail": "Bến Tre",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Cu Chi",
+    "detail": "Củ Chi",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Can Duoc",
+    "detail": "Cần Duộc",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Can Gio",
+    "detail": "Cần Giờ",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Chau Doc",
+    "detail": "Châu Đốc",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Cao Lanh",
+    "detail": "Cao lãnh",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Ca Mau",
+    "detail": "Cà Mau",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Cam Ranh",
+    "detail": "Cam Ranh",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Can Tho",
+    "detail": "Cần Thơ",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Dong Xoai",
+    "detail": "Đồng Xoài",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Thanh pho Ho Chi Minh",
+    "detail": "Hồ Chí Minh",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Ha Tien",
+    "detail": "Hà Tiên",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "My Tho",
+    "detail": "Mỹ Tho",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Long Xuyen",
+    "detail": "Long Xuyên",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Phu Khuong",
+    "detail": "Phú Khương",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Rach Gia",
+    "detail": "Rạch Giá",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Sa Dec",
+    "detail": "Sa Đéc",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Soc Trang",
+    "detail": "Sóc Trăng",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Tan An",
+    "detail": "Tân An",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Thu Dau Mot",
+    "detail": "Thủ Dầu Một",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Tay Ninh",
+    "detail": "Tây Ninh",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Tra Vinh",
+    "detail": "Trà Vinh",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Vinh Long",
+    "detail": "Vĩnh Long",
+    "country": "Việt Nam"
+  },
+
+  {
+    "apiId": "Vung Tau",
+    "detail": "Vũng Tàu",
+    "country": "Việt Nam"
+  }
+
+]
