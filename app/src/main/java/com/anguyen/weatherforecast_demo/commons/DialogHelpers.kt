@@ -53,21 +53,18 @@ private fun confirmDialog(from: Context, titleId: Int, messageId: Int, confirmFu
     }.show()!!
 }
 
-fun showGeneralErrorDialog(from: Context){
-    errorDialog(from, R.string.general_error_title, R.string.general_error_message)
+fun Context.showGeneralErrorDialog(){
+    errorDialog(this, R.string.general_error_title, R.string.general_error_message)
 }
 
-fun showInternetErrorDialog(from: Context) {
-    confirmDialog(from,
-        R.string.internet_error_title,
-        R.string.internet_error_message
-    ){
-        from.startActivity(Intent(Settings.ACTION_WIFI_SETTINGS))
+fun Context.showInternetErrorDialog() {
+    confirmDialog(this, R.string.internet_error_title, R.string.internet_error_message){
+        startActivity(Intent(Settings.ACTION_WIFI_SETTINGS))
     }
 }
 
-fun showDataGettingFailed(from: Context, message: String){
-    errorDialog(from, from.getString(R.string.general_error_title),  message)
+fun Context.showDataGettingFailed(message: String){
+    errorDialog(this, getString(R.string.general_error_title),  message)
 }
 
 

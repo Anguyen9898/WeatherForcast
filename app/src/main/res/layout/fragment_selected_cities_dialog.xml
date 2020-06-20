@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.CitySelectorFragmentDialog">
+    tools:context=".ui.cityselector.CitySelectorFragmentDialog">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -36,8 +36,8 @@
                     android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:layout_weight="0.8"
-                    android:background="@drawable/cir_corner_background"
-                    android:queryBackground="@drawable/cir_corner_background"
+                    android:background="@drawable/cir_corner_bg"
+                    android:queryBackground="@color/colorSearchView"
                     android:searchIcon="@drawable/ic_search"
                     android:iconifiedByDefault="false"
                     android:id="@+id/search_city"

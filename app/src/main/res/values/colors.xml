@@ -5,4 +5,6 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="colorSearchView">#e0e0d1</color>
     <color name="halfTrans">#7F000000</color>
+    <color name="colorSetting">#80bfff</color>
+    <color name="colorMainMenu">#00004d</color>
 </resources>
