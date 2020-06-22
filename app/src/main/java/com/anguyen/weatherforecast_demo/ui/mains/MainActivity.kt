@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity(),
 
         //Get user's selected city clicked from SelectedCitiesActivity
         if(intent?.extras?.getInt(SelectedCitiesActivity.KEY_VIEW_POS) != null) {
-            cityViewPos = intent?.extras?.getInt(SelectedCitiesActivity.KEY_VIEW_POS)!!
+            cityViewPos = intent?.extras?.getInt( SelectedCitiesActivity.KEY_VIEW_POS)!!
         }
 
     }

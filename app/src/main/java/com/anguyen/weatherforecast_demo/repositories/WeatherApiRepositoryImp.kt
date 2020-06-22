@@ -144,4 +144,44 @@ class WeatherApiRepositoryImp(private val mAppiKey: String): WeatherApiRepositor
 
     }
 
+    override fun readCityListFile(callBackData: CallBackData<JsonArray>) {
+        val clientApi = ClientApi()
+        val bodyCall =  clientApi.weatherApiService()?.readCityListFile()
+
+        bodyCall?.enqueue(object: Callback<JsonArray>{
+
+            override fun onResponse(call: Call<JsonArray>, response: Response<JsonArray>) {
+                Log.d(tag, response.code().toString())
+
+                if(response.code() == CODE_SUCCESS_RESPOND){
+
+                    if(response.body() != null) {
+
+                        val cityList = response.body()?.asJsonArray!!
+
+                        //Logcat Writing
+                        cityList.forEach{ Log.d(tag, it.asJsonObject.toString()) }
+                        //Setup Result
+                        callBackData.onSuccess(cityList)
+
+                    }else{
+                        callBackData.onFailure()
+                    }
+
+                }else{
+                    callBackData.onFailure()
+                }
+
+            }
+
+            override fun onFailure(call: Call<JsonArray>, t: Throwable) {
+                //Logcat Writing
+                Log.d(tag, "Fail")
+                //Setup Result
+                callBackData.onFailure(t.message)
+            }
+
+        })
+    }
+
 }

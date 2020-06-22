@@ -51,7 +51,6 @@ class CitySelectorRecycleAdapter(
 
     }
 
-
     interface OnRecycleCitySelectorItemClick{
         fun onItemClickHandler(cityDetail: CitiesModel)
     }

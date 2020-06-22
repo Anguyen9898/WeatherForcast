@@ -67,10 +67,7 @@ class SelectedCitiesActivity : AppCompatActivity(),
     private fun showBottomSheetDialogSelector() {
         progressDialog.show()
 
-        CitySelectorFragmentDialog(
-            this,
-            progressDialog
-        ).show(
+        CitySelectorFragmentDialog(this, progressDialog).show(
             supportFragmentManager,
             CitySelectorFragmentDialog.TAG
         )
@@ -105,7 +102,7 @@ class SelectedCitiesActivity : AppCompatActivity(),
 
     }
 
-    override fun onGettingEmptyData() {
+    override fun onDataIsEmpty() {
         progressDialog.dismiss()
         txt_empty_message.visibility = View.VISIBLE
     }

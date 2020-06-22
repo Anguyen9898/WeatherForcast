@@ -29,6 +29,7 @@ class SelectedCitiesPresenter(
     private val mManager = SelectedCitiesManager(mContext)
 
     fun getSelectedCitiesFromStorage(){
+
         mManager.getAllSelectedCites(object: SelectedCitiesManager.OnDataCallback{
 
             override fun onSuccess(citiesModels: List<CitiesModel>?) {
@@ -38,7 +39,7 @@ class SelectedCitiesPresenter(
 
             override fun onFail() {
                 Log.d("SelectedRespond", "fail")
-                mView?.onGettingEmptyData()
+                mView?.onDataIsEmpty()
             }
 
         })

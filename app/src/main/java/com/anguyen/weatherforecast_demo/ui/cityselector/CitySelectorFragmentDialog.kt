@@ -63,28 +63,8 @@ class CitySelectorFragmentDialog(
 
         //Call City-Selector Presenter
         mPresenter = CitySelectorDialogPresenter(context!!, this)
-        mPresenter.getAllCities()
-
-        //SetupSearchView
-        val searchManager = context?.getSystemService(Context.SEARCH_SERVICE) as SearchManager
-
-        search_city.apply {
-            //set info
-            setSearchableInfo(searchManager.getSearchableInfo(activity?.componentName))
-            //set hint
-            queryHint = getString(R.string.hint_search)
-            //set on searching handler
-            onQueryRequest(
-                onQueryTextChange = {
-                    if(it != ""){
-                        setupRecyclerView(it)
-                    }else{
-                        setupRecyclerView(null)
-                    }
-                },
-                onQueryTextSubmit = {}
-            )
-        }
+        //mPresenter.getAllCities()
+        mPresenter.readCiyListFile()
 
         //Set cancel click
         txt_cancel.onClick { dismiss() }
@@ -132,6 +112,28 @@ class CitySelectorFragmentDialog(
 
     override fun onGetAllCitiesSuccess(data: JsonArray?) {
         citiesData = data!!
+
+        //SetupSearchView
+        val searchManager = context?.getSystemService(Context.SEARCH_SERVICE) as SearchManager
+
+        search_city.apply {
+            //set info
+            setSearchableInfo(searchManager.getSearchableInfo(activity?.componentName))
+            //set hint
+            queryHint = getString(R.string.hint_search)
+            //set on searching handler
+            onQueryRequest(
+                onQueryTextChange = {
+                    if(it != ""){
+                        setupRecyclerView(it)
+                    }else{
+                        setupRecyclerView(null)
+                    }
+                },
+                onQueryTextSubmit = {}
+            )
+        }
+
     }
 
     override fun onGetDataFailure(message: String?) {

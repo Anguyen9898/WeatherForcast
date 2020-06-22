@@ -12,4 +12,6 @@ interface WeatherApiRepository {
 
     fun getDailyWeatherInfo(coordinate: JsonObject?, tempUnit: String?, callBackData: CallBackData<JsonArray>)
 
+    fun readCityListFile(callBackData: CallBackData<JsonArray>)
+
 }

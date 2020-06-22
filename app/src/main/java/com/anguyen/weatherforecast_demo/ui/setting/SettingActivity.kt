@@ -8,7 +8,7 @@ import android.view.View
 import com.anguyen.weatherforecast_demo.R
 import com.anguyen.weatherforecast_demo.commons.onClick
 import com.anguyen.weatherforecast_demo.presenters.SettingPresenter
-import com.anguyen.weatherforecast_demo.ui.AboutActivity
+import com.anguyen.weatherforecast_demo.ui.abouts.AboutActivity
 import kotlinx.android.synthetic.main.activity_setting.*
 
 const val tag = "setting's-share-pref"

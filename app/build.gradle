@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -65,6 +66,10 @@ dependencies {
     implementation 'androidx.room:room-runtime:2.2.5'
     kapt 'androidx.room:room-compiler:2.2.5'
 
+    //Firebase
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
 
+    //Gif
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.3'
 
 }

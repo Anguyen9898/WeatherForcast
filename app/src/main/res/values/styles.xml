@@ -36,5 +36,10 @@
         <item name="android:textColor">#fff</item>
         <item name="android:textStyle">bold</item>
     </style>
-    
+
+    <style name="hyperlinkText">
+        <item name="android:textColor">@color/colorHyperlink</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
 </resources>

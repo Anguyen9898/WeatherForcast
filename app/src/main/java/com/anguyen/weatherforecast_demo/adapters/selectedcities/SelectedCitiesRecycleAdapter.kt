@@ -41,28 +41,24 @@ class SelectedCitiesRecycleAdapter(
         holder.txtCityApiId.text = city.cityApiKey
         holder.txtCityName.text = city.cityName
 
-        mCities.forEach {
+        mPresenter.readCurrentWeatherApi(city.cityApiKey){ currentWeatherModel ->
 
-            mPresenter.readCurrentWeatherApi(it.cityApiKey){ currentWeatherModel ->
+            //Read JsonObject
+            val weatherElement = currentWeatherModel?.weather?.get(0)?.asJsonObject
+            val mainElement = currentWeatherModel?.main?.asJsonObject
 
-                //Read JsonObject
-                val weatherElement = currentWeatherModel?.weather?.get(0)?.asJsonObject
-                val mainElement = currentWeatherModel?.main?.asJsonObject
+            //Set date TextView
+            val date = Date((currentWeatherModel?.dt?.asLong!!)*1000)
+            val updateAt = SimpleDateFormat("EEEE dd/MM/yyyy HH:mm:ss", Locale.getDefault()).format(date)
+            holder.txtUpdateAt.text = updateAt
 
-                //Set date TextView
-                val date = Date((currentWeatherModel?.dt?.asLong!!)*1000)
-                val updateAt = SimpleDateFormat("EEEE dd/MM/yyyy HH:mm:ss", Locale.getDefault()).format(date)
-                holder.txtUpdateAt.text = updateAt
+            //Set icon image
+            val icon = weatherElement?.get("icon")?.asString
+            val iconUrl = "http://openweathermap.org/img/w/$icon.png"
+            Glide.with(mContext).load(iconUrl).into(holder.imgStatus)
 
-                //Set icon image
-                val icon = weatherElement?.get("icon")?.asString
-                val iconUrl = "http://openweathermap.org/img/w/$icon.png"
-                Glide.with(mContext).load(iconUrl).into(holder.imgStatus)
-
-                //Set temperature TextView
-                holder.txtTemp.text = "${mainElement?.get("temp")?.asDouble?.toInt()}$STR_TEMP_UNIT"
-
-            }
+            //Set temperature TextView
+            holder.txtTemp.text = "${mainElement?.get("temp")?.asDouble?.toInt()}$STR_TEMP_UNIT"
 
         }
 

@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">Weather Forecast</string>
+    <string name="app_name">4cast360</string>
 
     <string name="clear_sky">Clear Sky</string>
 
@@ -44,5 +44,10 @@
     <string name="txt_metric">°C</string>
     <string name="txt_imperial">°F</string>
     <string name="txt_reorder">Reorder</string>
+    <string name="txt_about_bottom"><![CDATA[Based on WeatherForecast apps which is supported by Open Weather & Git hub (Study purpose only)]]></string>
+    <string name="txt_about_copyright">This is demo version create and develop by Anguyen</string>
+    <string name="txt_version">Version 1.0</string>
+    <string name="txt_app_info">APP INFO</string>
+    <string name="txt_api_source"><u>Open source api</u></string>
 
 </resources>
